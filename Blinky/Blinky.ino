@@ -23,13 +23,15 @@ void setup() {
   
 }
 
+#define BLINK_DELAY 250
+
 void loop() {
   // put your main code here, to run repeatedly:
-  blinkLED(LED1, 500);
-  blinkLED(LED2, 500);
-  blinkLED(LED3, 500);
-  blinkLED(LED4, 500);
-  blinkLED(LED5, 500);
+  blinkLED(LED1, BLINK_DELAY);
+  blinkLED(LED2, BLINK_DELAY);
+  blinkLED(LED3, BLINK_DELAY);
+  blinkLED(LED4, BLINK_DELAY);
+  blinkLED(LED5, BLINK_DELAY);
   allOn(500);
   allOff(500);
 }
